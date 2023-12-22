@@ -43,7 +43,6 @@ export default function LoginForm() {
         },
         body: JSON.stringify({ email, password }),
       });
-      
       if (response.ok) {
         setMsg("Login successful..");      
         setEmail('');

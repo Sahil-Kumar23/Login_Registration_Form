@@ -59,7 +59,7 @@ export default function RegisterForm() {
         })
         .then((response) => {
             if (response.ok) {
-                console.log('Registration successful');
+                alert('Registration successful');
                 setUsername('');
                 setEmail('');
                 setPassword('');
